@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -15,15 +13,31 @@
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:background="#FF6600"
+        app:title="@string/app_name"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/background_color"
+        style="@style/FontStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:contentDescription="@string/backgroundchanger"
+        android:focusable="true"
+        android:src="@drawable/button"
+        tools:srcCompat="@drawable/button" />
 
     <ImageView
         android:id="@+id/view_logo"
         android:layout_width="265dp"
         android:layout_height="240dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="90dp"
         android:contentDescription="@string/logo"
         android:paddingTop="10dp"
         app:srcCompat="@drawable/barbell" />
@@ -38,16 +52,27 @@
         android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/textEmailAddress"
+        android:id="@+id/text_email"
         style="@style/FontStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
         android:autofillHints=""
-        android:gravity="center_horizontal"
-        android:hint="@string/email_text"
-        android:inputType="textWebEmailAddress|textEmailAddress"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:textAlignment="center" />
+        android:ems="10"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#FF6600" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/proceed" />
+
+
 </LinearLayout>

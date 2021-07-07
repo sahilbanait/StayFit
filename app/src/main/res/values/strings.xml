@@ -3,4 +3,9 @@
     <string name="logo">logo</string>
     <string name="appName">Stay Fit</string>
     <string name="email_text">Enter your email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="proceed">Proceed</string>
+    <string name="backgroundchanger">backgroundChanger</string>
+    <string name="tooltip">Please enter a valid email</string>
+    <string name="tooltip_email">tooltip_email</string>
 </resources>
