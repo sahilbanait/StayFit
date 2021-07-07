@@ -3,12 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/mainActivity">
+    app:startDestination="@id/titleFragment">
     <fragment
         android:id="@+id/exercise_Fragment"
         android:name="com.example.stayfit.Exercise_Fragment"
         android:label="fragment_exercise_"
-        tools:layout="@layout/fragment_exercise_" >
+        tools:layout="@layout/fragment_exercise_"
+        app:startDestination="@id/action_exercise_Fragment_to_legs_Fragment2">
         <action
             android:id="@+id/action_exercise_Fragment_to_chest_Fragment"
             app:destination="@id/chest_Fragment" />
@@ -86,12 +87,11 @@
             app:destination="@id/exercise_Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/mainActivity"
-        android:name="com.example.stayfit.MainActivity"
-        android:label="activity_main"
-        tools:layout="@layout/activity_main" >
+        android:id="@+id/titleFragment"
+        android:name="com.example.stayfit.TitleFragment"
+        android:label="TitleFragment" >
         <action
-            android:id="@+id/action_mainActivity_to_exercise_Fragment"
+            android:id="@+id/action_titleFragment_to_exercise_Fragment"
             app:destination="@id/exercise_Fragment" />
     </fragment>
 </navigation>
