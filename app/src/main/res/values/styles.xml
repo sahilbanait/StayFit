@@ -26,4 +26,9 @@
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:padding">10dp</item>
     </style>
+
+    <style name="Imagestyle">
+        <item name="android:layout_width">342dp</item>
+        <item name="android:layout_height">101dp</item>
+    </style>
 </resources>

@@ -14,7 +14,7 @@
         android:id="@+id/chest_button"
         style="@style/Button"
         android:text="@string/chest_button"
-        android:onClick="chest_button"/>
+        />
 
     <Button
         android:id="@+id/back_button"
