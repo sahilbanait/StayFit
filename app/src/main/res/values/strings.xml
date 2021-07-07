@@ -8,4 +8,13 @@
     <string name="backgroundchanger">backgroundChanger</string>
     <string name="tooltip">Please enter a valid email</string>
     <string name="tooltip_email">tooltip_email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chest_button">Chest</string>
+    <string name="back_button">Back</string>
+    <string name="arms_button">Arms</string>
+    <string name="abs_button">Abs</string>
+    <string name="shoulder_button">Shoulder</string>
+    <string name="legs_button">Legs</string>
+    <string name="proceed_button">Proceed</string>
 </resources>
