@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingMultiplier="1.2"
-                android:text="@string/chest_one_desription" />
+                android:text="@string/chest_one_description" />
 
             <ImageView
                 android:id="@+id/exercie_number_two"
@@ -54,11 +54,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 style="@style/Button"
-                android:text="@string/chest_one_desription" />
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/chest_two_description" />
 
             <ImageView
                 android:id="@+id/imageView5"
                style="@style/exercise_no_icon"
+                android:layout_marginTop="20dp"
                 android:src="@drawable/three" />
 
             <ImageView
@@ -70,7 +72,28 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                style="@style/Button"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/chest_three_description" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/exercise_no_icon"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/four" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/Imagestyle"
+                android:src="@drawable/chestcablecross" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Button"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/chest_four_description" />
         </LinearLayout>
     </ScrollView>
 

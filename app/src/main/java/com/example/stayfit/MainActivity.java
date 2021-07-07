@@ -3,6 +3,9 @@ package com.example.stayfit;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingComponent;
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
 import androidx.fragment.app.FragmentManager;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -12,7 +15,9 @@ import androidx.navigation.ui.NavigationUI;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Binder;
 import android.os.Bundle;
+import android.renderscript.ScriptGroup;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -20,16 +25,19 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.stayfit.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
     private Button proceedButton;
+    private Button chest_button;
+    private ActivityMainBinding binding;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
-        NavController navController = navHostFragment.getNavController();
 
+      binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
     }
 
@@ -51,12 +59,11 @@ public class MainActivity extends AppCompatActivity {
         return super.dispatchTouchEvent(ev);
     }
 
-
     public void proceedButton(View view) {
-        setContentView(R.layout.fragment_exercise_);
-        Navigation.createNavigateOnClickListener(R.id.action_titleFragment_to_exercise_Fragment);
+        binding = DataBindingUtil.setContentView(this,R.layout.fragment_exercise_);
 
     }
+
 
     @Override
     public boolean onSupportNavigateUp() {
@@ -64,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = navHostFragment.getNavController();
         return navController.navigateUp();
     }
-
 
 
 }
