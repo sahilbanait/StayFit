@@ -1,75 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center_horizontal"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"
-        android:background="#FF6600"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:title="@string/app_name" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/background_color"
-        style="@style/FontStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
-        android:clickable="true"
-        android:contentDescription="@string/backgroundchanger"
-        android:focusable="true"
-        android:src="@drawable/button"
-        tools:srcCompat="@drawable/button" />
-
-    <ImageView
-        android:id="@+id/view_logo2"
-        android:layout_width="match_parent"
-        android:layout_height="240dp"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="60dp"
-        android:contentDescription="@string/logo"
-        android:paddingTop="10dp"
-        app:srcCompat="@drawable/barbell" />
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/logo_textview2"
-        style="@style/FontStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="@string/appName"
-        android:textAlignment="center" />
 
-    <EditText
-        android:id="@+id/text_email2"
-        style="@style/FontStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:autofillHints="Please enter your email"
-        android:hint="@string/enter_your_email"
-        android:inputType="textEmailAddress"
-        android:shadowColor="#FF6600" />
-    <Button
-        style="@style/Button"
-        android:onClick="proceedButton"
-        android:text="@string/proceed_button"
-        android:layout_gravity="center_horizontal"
-        android:id="@+id/proceed_button"/>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#FF6600"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="@string/app_name" />
 
-</LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/background_color"
+            style="@style/FontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/backgroundchanger"
+            android:focusable="true"
+            android:src="@drawable/button"
+            tools:srcCompat="@drawable/button" />
+
+        <ImageView
+            android:id="@+id/view_logo2"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/logo"
+            android:paddingTop="10dp"
+            app:srcCompat="@drawable/barbell" />
+
+        <TextView
+            android:id="@+id/logo_textview2"
+            style="@style/FontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/appName"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/text_email2"
+            style="@style/FontStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:autofillHints="Please enter your email"
+            android:hint="@string/enter_your_email"
+            android:inputType="textEmailAddress"
+            android:shadowColor="#FF6600" />
+        <Button
+            style="@style/Button"
+            android:text="@string/proceed_button"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/proceed_button"/>
+
+    </LinearLayout>
+</layout>
