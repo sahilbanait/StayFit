@@ -18,22 +18,40 @@
     <string name="legs_button">Legs</string>
     <string name="proceed_button">Proceed</string>
 
-    <string name="chest_three_description"> df</string>
+    <string name="chest_three_description"> Lie back on an incline bench. Make sure the bench is adjusted to between 15 and 30 degrees on an incline.
+        Anything higher than 30 degrees mainly works the anterior deltoids (shoulders). Your grip should be where your elbows make a 90-degree angle.
+        \nUsing a shoulder-width grip, wrap your fingers around the bar with your palms facing away from you.
+        Lift the bar up from the rack and hold it straight over you with your arms locked.
+        As you breathe in, come down slowly until the bar is an inch away from your chest.
+        \nYou want the bar to be in line with your upper chest the whole time. Your arms should be at a 45-degree angle and tucked into your sides.
+        Hold this position for one count at the bottom of this movement and, with one big exhale, push the bar back up to your starting position.
+        Lock your arms, hold, and come down slowly.
+        \nDo 12 repetitions and then place the bar back on the rack.
+        Complete a total of five sets, adding weight after each set.</string>
     <string name="chest_four_description"> Set both pulleys directly at (or slightly above) shoulder height and select the desired weight.
-Grasp both handles with a neutral grip and take a step forward to split the stance.
-Press the handles to lockout while flexing the pecs and extending the elbows.
-Keep a slight bend in the elbows, move entirely at the shoulder joint, and slowly allow the arms to open while the pecs stretch.
-Return to the starting position by flexing your pecs and bringing the handles together at chest height.
-Slowly lower back to the starting position and repeat for the desired number of repetitions.</string>
-    <string name="chest_two_description">Lie flat on a bench and set your hands just outside of shoulder width.
-Set your shoulder blades by pinching them together and driving them into the bench.
-Take a deep breath and allow your spotter to help you with the lift off in order to maintain tightness through your upper back.
-Let the weight settle and ensure your upper back remains tight after lift off.
-Inhale and allow the bar to descend slowly by unlocking the elbows.
-Lower the bar in a straight line to the base of the sternum (breastbone) and touch the chest.
-Push the bar back up in a straight line by pressing yourself into the bench, driving your feet into the floor for leg drive, and extending the elbows.
-Repeat for the desired number of repetitions </string>
-    <string name="chest_one_description">ff</string>
+        Grasp both handles with a neutral grip and take a step forward to split the stance.
+        Press the handles to lockout while flexing the pecs and extending the elbows.
+        Keep a slight bend in the elbows, move entirely at the shoulder joint, and slowly allow the arms to open while the pecs stretch.
+        Return to the starting position by flexing your pecs and bringing the handles together at chest height.
+        Slowly lower back to the starting position and repeat for the desired number of repetitions.</string>
+    <string name="chest_two_description">
+        Lie flat on a bench and set your hands just outside of shoulder width.
+        Set your shoulder blades by pinching them together and driving them into the bench.
+        \nTake a deep breath and allow your spotter to help you with the lift off in order to maintain tightness through your upper back.
+        Let the weight settle and ensure your upper back remains tight after lift off.
+        \nInhale and allow the bar to descend slowly by unlocking the elbows.
+        Lower the bar in a straight line to the base of the sternum (breastbone) and touch the chest.
+        \nPush the bar back up in a straight line by pressing yourself into the bench,
+        driving your feet into the floor for leg drive,
+        and extending the elbows.Repeat for the desired number of repetitions </string>
+    <string name="chest_one_description">Stand in front of your box or bench, then squat or bend down and
+        place both hands on either side of it with your fingers pointing forward.Your hands should be about shoulder-width apart.
+        If you need a wider piece of equipment to safely elevate yourself, don’t be shy about swapping it out.\n
+        Once your hands are in the right position, step your body back into a plank position, one leg at a time.
+        Make sure your body is in a straight line, your head is aligned with your spine, and that your lower back isn’t sagging before continuing.
+        Looking a few inches ahead of you, rather than down at the box, can help keep your body straight.
+        \nNext, bend your arms to help you slowly lower your chest toward the box. Straighten your arms to bring yourself back up into a straight line.
+        Repeat 10 times for 3 sets to start. You can increase the repetitions within each set as you get stronger.</string>
     <string name="about">About</string>
     <string name="hello_blank_fragment">About</string>
 
