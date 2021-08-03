@@ -9,12 +9,6 @@
         android:orientation="vertical"
         tools:context=".Exercise_Fragment">
 
-        <androidx.appcompat.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="?android:actionBarSize"
-            android:background="#FF6600"
-            android:theme="?attr/actionBarTheme" />
-
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"

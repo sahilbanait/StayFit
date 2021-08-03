@@ -25,6 +25,36 @@ public class Exercise_Fragment extends Fragment {
                Navigation.findNavController(v).navigate(R.id.action_exercise_Fragment_to_chest_Fragment2);
            }
        });
+        fragmentExerciseBinding.absButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_exercise_Fragment_to_abs_Fragment);
+            }
+        });
+        fragmentExerciseBinding.backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_exercise_Fragment_to_back_Fragment);
+            }
+        });
+        fragmentExerciseBinding.legsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_exercise_Fragment_to_legs_Fragment);
+            }
+        });
+        fragmentExerciseBinding.shoulderButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_exercise_Fragment_to_shoulder_Fragment);
+            }
+        });
+        fragmentExerciseBinding.armsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(v).navigate(R.id.action_exercise_Fragment_to_arms_Fragment);
+            }
+        });
 
         return fragmentExerciseBinding.getRoot();
     }
