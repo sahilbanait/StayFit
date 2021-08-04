@@ -54,6 +54,31 @@
         Repeat 10 times for 3 sets to start. You can increase the repetitions within each set as you get stronger.</string>
     <string name="about">About</string>
     <string name="hello_blank_fragment">About</string>
+    <string name="leg_one_description">Start with your feet slightly wider than hip-width apart.
+Keep your chest up, engage your abdominals, and shift your weight onto your heels as you push your hips back into a sitting position.
+Lower your hips until your thighs are parallel or almost parallel to the floor.
+You should feel the squat in your thighs and glutes.
+Pause with your knees over, but not beyond, your toes.
+Exhale and push back up to the starting position.</string>
+    <string name="leg_two_description">leg_two_description</string>
+    <string name="leg_three_description">leg_three_description</string>
+    <string name="leg_four_description">leg_four_description</string>
+    <string name="arms_one_description">arms_one_description</string>
+    <string name="arms_two_description">arms_two_description</string>
+    <string name="arms_three_description">arms_three_description</string>
+    <string name="arms_four_description">arms_four_description</string>
+    <string name="back_one_description">back_one_description</string>
+    <string name="back_two_description">back_two_description</string>
+    <string name="back_three_description">back_three_description</string>
+    <string name="back_four_description">back_four_description</string>
+    <string name="shoulder_four_description">shoulder_four_description</string>
+    <string name="shoulder_three_description">shoulder_three_description</string>
+    <string name="shoulder_two_description">shoulder_two_description</string>
+    <string name="shoulder_one_description">shoulder_one_description</string>
+    <string name="abs_one_description">abs_one_description</string>
+    <string name="abs_two_description">abs_two_description</string>
+    <string name="abs_three_description">abs_three_description</string>
+    <string name="abs_four_description">abs_four_description</string>
 
 
 </resources>

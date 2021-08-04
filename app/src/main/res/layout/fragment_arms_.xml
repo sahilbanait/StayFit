@@ -1,14 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Arms_Fragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/arms_Fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        tools:context=".Arms_Fragment">
 
-</FrameLayout>
+
+        <ScrollView
+            android:id="@+id/arms_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/exercise_number_one"
+                    app:srcCompat="@drawable/one"
+                    style="@style/exercise_no_icon" />
+
+                <ImageView
+                    android:id="@+id/exercise_one_view"
+                    app:srcCompat="@drawable/bicephammercurls"
+                    style="@style/Imagestyle" />
+
+                <TextView
+                    android:id="@+id/exercise_one_description"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/arms_one_description" />
+
+                <ImageView
+                    android:id="@+id/exercie_number_two"
+                    android:layout_marginTop="20dp"
+                    style="@style/exercise_no_icon"
+                    android:contentDescription="chest"
+                    app:srcCompat="@drawable/two" />
+
+                <ImageView
+                    android:id="@+id/exercise_two_view"
+                    style="@style/Imagestyle"
+                    android:src="@drawable/bicepsbcurls" />
+
+                <TextView
+                    android:id="@+id/exercise_two_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Button"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/arms_two_description" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    style="@style/exercise_no_icon"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/three" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    style="@style/Imagestyle"
+                    android:src="@drawable/tricepdkickback" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Button"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/arms_three_description" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    style="@style/exercise_no_icon"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/four" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    style="@style/Imagestyle"
+                    android:src="@drawable/tricepdextensions" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Button"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="@string/arms_four_description" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</layout>
+
