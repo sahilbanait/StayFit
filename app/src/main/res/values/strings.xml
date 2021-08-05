@@ -60,13 +60,22 @@ Lower your hips until your thighs are parallel or almost parallel to the floor.
 You should feel the squat in your thighs and glutes.
 Pause with your knees over, but not beyond, your toes.
 Exhale and push back up to the starting position.</string>
-    <string name="leg_two_description">leg_two_description</string>
-    <string name="leg_three_description">leg_three_description</string>
-    <string name="leg_four_description">leg_four_description</string>
-    <string name="arms_one_description">arms_one_description</string>
-    <string name="arms_two_description">arms_two_description</string>
-    <string name="arms_three_description">arms_three_description</string>
-    <string name="arms_four_description">arms_four_description</string>
+    <string name="leg_two_description">Stand upright holding two dumbbells by your sides. Place the balls of your feet on an exercise step or weight plate with your heels touching the floor. With your toes pointing forwards, raise your heels off the floor and contract your calves. Slowly return to the starting position.</string>
+    <string name="leg_three_description">Stand upright with dumbbells at your side, palms facing your body. Lunge forward as far as you can with your right leg, bending your trailing knee so it almost brushes the floor. Use the heel of your right foot to push your upper body back to the starting position. Repeat with the opposite leg.</string>
+    <string name="leg_four_description">Start by standing on your right foot. Lift your left leg out and hold it out straight and slightly in front of your torso. You could also just bend your knee and keep your left leg elevated to start. Your arms can be by your side or out in front of you for balance.
+Keep your core engaged and your torso up throughout the movement. Start to push your hips back as you lower into a squat position. Aim to get low enough that your hips are parallel to the ground.
+Squeeze your glutes as you push into the right foot to stand back up. Try to keep your left leg up between reps.</string>
+    <string name="arms_one_description">Place one dumbbell in each hand. Rotate the hands so that the palms face the thighs. By doing so, you\'ll notice that the thumbs face forward.
+Keeping the elbows in a fixed position, flex (bend) at the elbow so the lower arms lift up and toward the shoulders. Keep the shoulders relaxed as you work. Keep your grip firms and wrists in line with the forearm.
+At the top of the movement, thumbs will be close to the shoulders, palms facing in toward the midline of the body.
+Lower the weights to the starting position.</string>
+    <string name="arms_two_description">Stand tall with your chest up and core braced, holding the barbell with your hands just outside of your hips, using an underhand grip. Keeping your chest up and your elbows tight to your sides, initiate the move by raising your hands slightly so you feel your biceps become engaged. While maintaining tension on your biceps, curl the bar up to shoulder height, then give your biceps a one-second squeeze. Start to lower the bar slowly, keeping your biceps tensed and engaged to work as many muscle fibres as possible.</string>
+    <string name="arms_three_description">Bring the dumbbells up and back and straighten your arms. Keeping one arm straight, return to the starting position with the other arm and perform a kickback. Then, keep that arm in a fixed position and a perform a kickback with the other arm. Keep alternating arms and repeat this motion</string>
+    <string name="arms_four_description">Grab a pair of dumbbells and stand tall with your feet shoulder-width apart. Brace your core—as if you’re about to get punched in the gut—and squeeze your glutes. Maintain these contractions the entire exercise.
+
+Press the weights over head until your arms are straight and your biceps are next to your ears. Your palms should face each other. This is the starting position.
+
+Without moving your upper arms, bend your elbows to lower the weights behind your head until your forearms are at least parallel to the floor. Pause, then straighten your arms to return to the starting position.</string>
     <string name="back_one_description">back_one_description</string>
     <string name="back_two_description">back_two_description</string>
     <string name="back_three_description">back_three_description</string>
