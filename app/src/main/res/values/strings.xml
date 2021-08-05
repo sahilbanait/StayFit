@@ -76,18 +76,59 @@ Lower the weights to the starting position.</string>
 Press the weights over head until your arms are straight and your biceps are next to your ears. Your palms should face each other. This is the starting position.
 
 Without moving your upper arms, bend your elbows to lower the weights behind your head until your forearms are at least parallel to the floor. Pause, then straighten your arms to return to the starting position.</string>
-    <string name="back_one_description">back_one_description</string>
-    <string name="back_two_description">back_two_description</string>
-    <string name="back_three_description">back_three_description</string>
-    <string name="back_four_description">back_four_description</string>
-    <string name="shoulder_four_description">shoulder_four_description</string>
-    <string name="shoulder_three_description">shoulder_three_description</string>
-    <string name="shoulder_two_description">shoulder_two_description</string>
-    <string name="shoulder_one_description">shoulder_one_description</string>
-    <string name="abs_one_description">abs_one_description</string>
-    <string name="abs_two_description">abs_two_description</string>
-    <string name="abs_three_description">abs_three_description</string>
-    <string name="abs_four_description">abs_four_description</string>
+    <string name="back_one_description">Stand tall, holding a bar in an overhand grip with your hands just outside your thighs. Lift your shoulders straight up, hold for one or two seconds in this elevated position, then lower them back to the start. Throughout the exercise, make sure you keep your shoulders back and your spine and elbows straight.</string>
+    <string name="back_two_description">Stand with your mid-foot under the barbell
+Bend over and grab the bar with a shoulder-width grip
+Bend your knees until your shins touch the bar
+Lift your chest up and straighten your lower back
+Take a big breath, hold it, and stand up with the weight</string>
+    <string name="back_three_description">Exhale while pulling yourself up so your chin is level with the bar. Pause at the top.
+Lower yourself (inhaling as you go down) until your elbows are straight.
+Repeat the movement without touching the floor.
+Complete the number of repetitions your workout requires.</string>
+    <string name="back_four_description">Take one step back into a lunge position. Keep a soft bend in your front leg with the knee in line with your ankle and back leg straight. Lean slightly forward, and rest your free hand on your front thigh. Tighten your core by squeezing your belly button in towards your spine. This will give you a good base of support.
+Lower the dumbbell toward the floor until you have a full extension at the elbow. Maintain proper posture through your shoulders, hips, and lower back. Avoid rounding or arching the lumbar spine.
+Begin the upward motion of the dumbbell by first sliding your shoulder blade toward your spine and then lifting the weight up toward your torso by driving your elbow to the ceiling. Keep your elbow close to your body as it passes the ribs.
+Squeeze your shoulder blade in toward the center of back (contracting the rhomboids). At the end of the movement, the dumbbell should be in line with your chest and your elbow should be pointing up toward the ceiling. Be sure to maintain good posture through your spine, shoulders, and hips.
+Repeat for the appropriate number of repetitions.
+Switch sides and repeat the same number of repetitions with the opposite arm.
+Perform two to three sets of the exercise, with a one-minute rest between sets.</string>
+    <string name="shoulder_four_description">Stand with feet about shoulder-width apart. Keep the back straight and feet planted flat on the floor. Your arms holding weights should hang down.
+Hold the dumbbells across the thighs horizontally, palms facing back toward the thighs. Ensure that you have a firm grip.
+Brace the abdominal muscles.
+Lift the weights upward, inhaling, with arms out in front and palms facing down. Keep a slight bend in the elbows to reduce the stress on the joints. Pause when the arms are approximately horizontal to the floor and feel the contraction in the shoulders.
+Return the dumbbells to the starting position at the thighs with a slow and controlled motion while exhaling.
+Repeat the exercise for the number of sets and repetitions in your program.
+
+</string>
+    <string name="shoulder_three_description">Grasp a barbell or dumbbells and allow it to hang in front of you at the length of your arms. Your palms should be facing your body.
+Standing up straight, adjust your grip so that your hands are about in line with the thighs. Shoulder-width apart (no closer) is recommended for wrist and shoulder safety.
+Breathe in and brace the abdominals, keep the back straight, chest up, and eyes focused forward.
+Lift the barbell straight up toward the chin, leading with the elbows and keeping the bar close to the body. Breathe out during the effort. Your arms should go no higher than parallel with the shoulders. Slightly less is OK.
+Pause at the top of the lift.
+Return the barbell back to the starting position, breathing in as you lower it.
+Repeat the move for your defined number of repetitions.</string>
+    <string name="shoulder_two_description">Place the barbell in a barbell rack at an appropriate height. When you walk up to the barbell, it should be in front of your shoulders—you should be able to take it off of the rack without standing on your tip-toes or bending down too low.
+Start by standing with your feet about shoulder-width apart. Your hips should be fully extended, as should your knees, but be careful not to lock your knees. Hold the barbell in a front-rack position (resting on the front of your shoulders), with your elbows pointing forward.
+Breathe, tighten your core, and press the barbell overhead. Press until your arms are fully locked out. Press your head through the “window” made by your arms.
+Engage your back muscles and with control, lower the barbell back to the front rack position.
+Repeat for eight to 10 reps. If you need to make an adjustment, place the barbell back on the rack.</string>
+    <string name="shoulder_one_description">Stand tall, a dumbbell in each hand. Arms are at your sides, palms facing in. Position your feet roughly hip-distance apart. Check your posture—roll your shoulders back, engage your core, and look straight ahead.
+Raise your arms simultaneously just a couple inches out to each side and pause. This momentary pause should help ensure you disengage your trapezius muscle from the movement, targeting the deltoids as intended.
+Lift the dumbbells up and out to each side, keeping your arms almost completely straight, stopping when your elbows reach shoulder-height and your body is forming a "T" shape. Breathe in as you lift.
+Pause and hold for a second at the top of the movement.
+Lower the weights slowly (take about twice as long to lower the weights as you took to lift them), bringing your arms back to your sides. Breathe out as you lower the dumbbells</string>
+    <string name="abs_one_description">Lying flat on the floor, extend your arms to hold the plate over your chest.Keeping the plate there throughout, contract your midsection to perform a leg lift (with both legs).When your legs reach perpendicular, lower them or, for more of a challenge, do a hip thrust to press your feet up toward the ceiling, then return to the start. That’s 1 rep.</string>
+    <string name="abs_two_description">Lying flat on the floor, extend your arms to hold the plate over your chest.Keeping the plate there throughout, contract your midsection to perform a leg lift (with both legs).When your legs reach perpendicular, lower them or, for more of a challenge, do a hip thrust to press your feet up toward the ceiling, then return to the start. That’s 1 rep</string>
+    <string name="abs_three_description">Lie down on the floor. Lift legs so that your thighs are perpendicular with the ground. Put hands behind your head. Move left elbow and right leg toward the body until they touch. Move left elbow and right leg back to starting position. At the same time, move right elbow and left leg toward the body until they touch. This is one repetition.
+</string>
+    <string name="abs_four_description">Lie flat on an exercise mat. Keep your hands under your butt such that it can support your lower back. If you are lying on a bench, place your hands behind your head.
+Tighten your core and start raising your legs by contracting your lower abs.
+Keep raising the legs till they are perpendicular to the floor and your body forms a 90 degree angle.
+Contract your core and start raising your upper body. Raise your upper body such that it feels you are reaching out for your legs.
+Hold this position for half a second. You will feel your lower abs contracting. Do not bend your legs during this position.
+After half a second, lower your upper body briefly.
+Repeat this pulsing motion till you have performed 15 ab pulse ups.</string>
 
 
 </resources>

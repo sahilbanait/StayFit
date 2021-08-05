@@ -4,15 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/activity_main.xml" value="0.2671875" />
+        <entry key="..\:/Users/Sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_abs_.xml" value="0.47291666666666665" />
         <entry key="..\:/Users/Sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_back_.xml" value="0.2671875" />
         <entry key="..\:/Users/Sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_chest_.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_exercise_.xml" value="0.2671875" />
+        <entry key="..\:/Users/Sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_shoulder_.xml" value="0.47291666666666665" />
         <entry key="..\:/Users/Sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_title.xml" value="0.2671875" />
-        <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/drawable/back.xml" value="0.34375" />
         <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/activity_main.xml" value="0.2912037037037037" />
         <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_about.xml" value="0.2912037037037037" />
-        <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_abs_.xml" value="0.32760416666666664" />
-        <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_arms_.xml" value="0.32760416666666664" />
-        <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_back_.xml" value="0.32760416666666664" />
         <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_chest_.xml" value="0.27870370370370373" />
         <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_exercise_.xml" value="0.28194444444444444" />
         <entry key="..\:/Users/sahil/AndroidStudioProjects/StayFit/app/src/main/res/layout/fragment_legs_.xml" value="0.28425925925925927" />

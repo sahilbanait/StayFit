@@ -38,6 +38,16 @@
         <action
             android:id="@+id/action_exercise_Fragment_to_legs_Fragment"
             app:destination="@id/legs_Fragment" />
+        <action
+            android:id="@+id/action_exercise_Fragment_pop"
+            app:popUpTo="@id/exercise_Fragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_exercise_Fragment_self"
+            app:destination="@id/exercise_Fragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popUpTo="@id/exercise_Fragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/chest_Fragment2"
@@ -53,12 +63,22 @@
         android:id="@+id/arms_Fragment"
         android:name="com.example.stayfit.Arms_Fragment"
         android:label="fragment_arms_"
-        tools:layout="@layout/fragment_arms_" />
+        tools:layout="@layout/fragment_arms_" >
+        <action
+            android:id="@+id/action_arms_Fragment_pop_including_exercise_Fragment"
+            app:popUpTo="@id/exercise_Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
     <fragment
         android:id="@+id/back_Fragment"
         android:name="com.example.stayfit.Back_Fragment"
         android:label="fragment_back_"
-        tools:layout="@layout/fragment_back_" />
+        tools:layout="@layout/fragment_back_" >
+        <action
+            android:id="@+id/action_back_Fragment_pop_including_exercise_Fragment"
+            app:popUpTo="@id/exercise_Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
     <fragment
         android:id="@+id/shoulder_Fragment"
         android:name="com.example.stayfit.Shoulder_Fragment"

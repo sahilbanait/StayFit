@@ -28,6 +28,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.stayfit.databinding.FragmentTitleBinding;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.Random;
@@ -39,6 +40,7 @@ public class Title extends Fragment {
     LinearLayout layout;
     Boolean color = false;
     EditText editText;
+    FloatingActionButton floatingActionButton;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -47,9 +49,13 @@ public class Title extends Fragment {
         fragmentTitleBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false);
 
         layout = fragmentTitleBinding.titleLinearLayout;
+        floatingActionButton = fragmentTitleBinding.floatingButton;
+        floatingActionButton.setTooltipText("Change screen color");
+
         fragmentTitleBinding.floatingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Random ranNum = new Random();
                 if (color == false) {
                     int myNum = Color.argb(255, ranNum.nextInt(256), ranNum.nextInt(256), ranNum.nextInt(256));
@@ -84,9 +90,7 @@ public class Title extends Fragment {
         return fragmentTitleBinding.getRoot();
     }
 
-    private void emailValidator(EditText editText) {
 
-    }
 }
 
 
