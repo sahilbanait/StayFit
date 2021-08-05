@@ -25,6 +25,9 @@ public class Exercise_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         fragmentExerciseBinding = DataBindingUtil.inflate(inflater,R.layout.fragment_exercise_, container, false);
+
+        //Every exercise button is set with OnClickListener to navigate back to Exercise screen
+
         fragmentExerciseBinding.chestButton.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -65,16 +68,6 @@ public class Exercise_Fragment extends Fragment {
         return fragmentExerciseBinding.getRoot();
     }
 
-//    @Override
-//    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-//        super.onViewCreated(view, savedInstanceState);
-//        NavController navController = Navigation.findNavController(view);
-//        AppBarConfiguration appBarConfiguration =
-//                new AppBarConfiguration.Builder(navController.getGraph()).build();
-//        Toolbar toolbar = view.findViewById(R.id.toolbar);
-//
-//        NavigationUI.setupWithNavController(
-//                toolbar, navController, appBarConfiguration);
-//    }
+
 }
 

@@ -1,5 +1,7 @@
 package com.example.stayfit;
 
+
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.appcompat.widget.Toolbar;
@@ -24,6 +26,7 @@ import android.widget.EditText;
 import com.example.stayfit.databinding.ActivityMainBinding;
 
 
+
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding mainBinding;
     AppBarConfiguration appBarConfiguration;
@@ -34,15 +37,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
+        //Declaring navhostfragment for navigation
         NavHostFragment navHostFragment = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.navHostFragment);
         NavController navController = navHostFragment.getNavController();
+
+        //Setting up toolbar with up navigation
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         Toolbar toolbar = findViewById(R.id.toolbar);
         NavigationUI.setupWithNavController(toolbar, navController, appBarConfiguration);
 
 
     }
-
+// This method is used to hide the keyboard when user touches the screen anywhere
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
         View view = getCurrentFocus();

@@ -46,12 +46,14 @@ public class Title extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        //binding the view using databinding method
         fragmentTitleBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_title, container, false);
 
         layout = fragmentTitleBinding.titleLinearLayout;
         floatingActionButton = fragmentTitleBinding.floatingButton;
-        floatingActionButton.setTooltipText("Change screen color");
 
+
+        //This method is used to change the color of screen
         fragmentTitleBinding.floatingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,6 +70,8 @@ public class Title extends Fragment {
             }
         });
         editText = fragmentTitleBinding.textEmail;
+
+        // This method is used to set the email validator
 
         fragmentTitleBinding.proceedButton.setOnClickListener(new View.OnClickListener() {
             @Override
