@@ -41,7 +41,7 @@
         <action
             android:id="@+id/action_exercise_Fragment_pop"
             app:popUpTo="@id/exercise_Fragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
         <action
             android:id="@+id/action_exercise_Fragment_self"
             app:destination="@id/exercise_Fragment"
@@ -63,22 +63,12 @@
         android:id="@+id/arms_Fragment"
         android:name="com.example.stayfit.Arms_Fragment"
         android:label="fragment_arms_"
-        tools:layout="@layout/fragment_arms_" >
-        <action
-            android:id="@+id/action_arms_Fragment_pop_including_exercise_Fragment"
-            app:popUpTo="@id/exercise_Fragment"
-            app:popUpToInclusive="true" />
-    </fragment>
+        tools:layout="@layout/fragment_arms_" />
     <fragment
         android:id="@+id/back_Fragment"
         android:name="com.example.stayfit.Back_Fragment"
         android:label="fragment_back_"
-        tools:layout="@layout/fragment_back_" >
-        <action
-            android:id="@+id/action_back_Fragment_pop_including_exercise_Fragment"
-            app:popUpTo="@id/exercise_Fragment"
-            app:popUpToInclusive="true" />
-    </fragment>
+        tools:layout="@layout/fragment_back_" />
     <fragment
         android:id="@+id/shoulder_Fragment"
         android:name="com.example.stayfit.Shoulder_Fragment"

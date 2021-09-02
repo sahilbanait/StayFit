@@ -21,11 +21,4 @@ public class Chest_Fragment extends Fragment {
         return view;
     }
 
-    public class ChildFragment extends Fragment {
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            return super.onCreateView(inflater, container, savedInstanceState);
-        }
-    }
 }

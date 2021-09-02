@@ -1,15 +1,19 @@
 package com.example.stayfit;
 
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
+
 import android.app.Activity;
 import android.content.Context;
+import android.view.View;
 
-import androidx.test.core.app.ActivityScenario;
-import androidx.test.ext.junit.rules.ActivityScenarioRule;
+
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 
-import org.junit.Before;
-import org.junit.Rule;
+import org.hamcrest.Matcher;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -32,6 +36,9 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.example.stayfit", appContext.getPackageName());
     }
+
+
+
 
 
 }

@@ -22,6 +22,7 @@
             android:layout_marginRight="10dp"
             android:clickable="true"
             android:tooltipText="Change screen color"
+
             android:contentDescription="@string/backgroundchanger"
             android:focusable="true"
             android:src="@drawable/circular"
