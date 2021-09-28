@@ -28,6 +28,7 @@ import com.example.stayfit.databinding.ActivityMainBinding;
 
 
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
     private ActivityMainBinding mainBinding;
     AppBarConfiguration appBarConfiguration;
     private NavController navController;

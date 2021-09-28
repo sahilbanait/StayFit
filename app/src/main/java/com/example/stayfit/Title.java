@@ -1,5 +1,7 @@
 package com.example.stayfit;
 
+import static android.content.ContentValues.TAG;
+
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -18,6 +20,7 @@ import androidx.navigation.ui.NavigationUI;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,7 +38,7 @@ import java.util.Random;
 
 
 public class Title extends Fragment {
-
+    private static final String TAG = "TitleFragment";
     private FragmentTitleBinding fragmentTitleBinding;
     LinearLayout layout;
     Boolean color = false;
@@ -57,7 +60,7 @@ public class Title extends Fragment {
         fragmentTitleBinding.floatingButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Log.d(TAG, "Fab button clicked");
                 Random ranNum = new Random();
                 if (color == false) {
                     int myNum = Color.argb(255, ranNum.nextInt(256), ranNum.nextInt(256), ranNum.nextInt(256));
@@ -76,7 +79,7 @@ public class Title extends Fragment {
         fragmentTitleBinding.proceedButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Log.d(TAG, "Clicked on Proceed Button");
                 String emailToText = editText.getText().toString();
 
                 if(!emailToText.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailToText).matches()){
