@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">StayFit</string>
+    <string name="app_name">Fitness App</string>
     <string name="logo">logo</string>
-    <string name="appName">Stay Fit</string>
+    <string name="appName">Fitness App</string>
     <string name="email_text">Enter your email</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="proceed">Proceed</string>
